@@ -144,7 +144,7 @@ function Home() {
                 width={1408}
                 height={1008}
                 loading="lazy"
-                className="h-full w-full rounded-2xl object-cover shadow-soft"
+                className="h-full w-full rounded-2xl object-contain shadow-soft"
               />
             </div>
           </div>
