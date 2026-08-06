@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:description", content: "Get a free website demo on WhatsApp today." },
     ],
   }),
-  component: Contact;
+  component: Contact,
 });
 
 function Contact() {
