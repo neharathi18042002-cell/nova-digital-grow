@@ -77,16 +77,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Nova Digital Studio — Premium Business Websites" },
+      { title: "Nova Digital Studio — Premium Websites That Grow Businesses" },
       {
         name: "description",
         content:
-          "Nova Digital Studio designs premium, mobile-first business websites that build trust and generate more customers.",
+          "Modern, mobile-first business websites designed to build trust and generate more customers. Get a free website demo on WhatsApp.",
       },
       { name: "author", content: "Nova Digital Studio" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#FAFAF7" },
+      { property: "og:title", content: "Nova Digital Studio — Premium Websites That Grow Businesses" },
+      { name: "twitter:title", content: "Nova Digital Studio — Premium Websites That Grow Businesses" },
+      { property: "og:description", content: "Modern, mobile-first business websites designed to build trust and generate more customers. Get a free website demo on WhatsApp." },
+      { name: "twitter:description", content: "Modern, mobile-first business websites designed to build trust and generate more customers. Get a free website demo on WhatsApp." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0d27bea3-deb3-4c02-a010-92d2e07656cf/id-preview-ff0fcd50--f51026cf-fe60-466d-a18b-629cf7b9da51.lovable.app-1786015717497.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0d27bea3-deb3-4c02-a010-92d2e07656cf/id-preview-ff0fcd50--f51026cf-fe60-466d-a18b-629cf7b9da51.lovable.app-1786015717497.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

@@ -33,7 +33,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Nova Digital Studio — Premium Websites That Grow Businesses" },
       {
         property: "og:description",
-        content: "Mobile-first premium websites for gyms, cafes, clinics, hotels, schools and more.",
+        content: "Modern, mobile-first business websites designed to build trust and generate more customers. Get a free website demo on WhatsApp.",
       },
     ],
   }),
