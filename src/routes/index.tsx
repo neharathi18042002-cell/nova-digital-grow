@@ -157,7 +157,7 @@ function Home() {
       </section>
 
       {/* Why choose us */}
-      <section className="shell py-8 md:py-14">
+      <section className="shell py-10 md:py-16">
         <SectionHeading
           eyebrow="Why Choose Us"
           title="Built for trust, speed and conversions."
@@ -178,7 +178,7 @@ function Home() {
       </section>
 
       {/* Process */}
-      <section className="shell py-16 md:py-24">
+      <section className="shell py-12 md:py-20">
         <div className="ink-surface overflow-hidden rounded-[2rem] p-7 md:p-14">
           <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
             <div>
