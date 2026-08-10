@@ -141,9 +141,22 @@
   }
 }
 
+@utility glow-cta {
+  transition:
+    transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 0 3px color-mix(in oklab, var(--secondary) 35%, transparent),
+      0 14px 34px -10px color-mix(in oklab, var(--primary) 65%, transparent);
+  }
+}
+
 @utility float-slow {
   animation: float-slow 7s ease-in-out infinite;
 }
+
 
 @keyframes float-slow {
   0%,
