@@ -87,6 +87,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#FAFAF7" },
+      { name: "google-site-verification", content: "mq6y4HYFZa-YYN2kfzuoYhFRDebymNnSRgQpYzZaXSs" },
       { property: "og:title", content: "Nova Digital Studio — Premium Websites That Grow Businesses" },
       { name: "twitter:title", content: "Nova Digital Studio — Premium Websites That Grow Businesses" },
       { property: "og:description", content: "Modern, mobile-first business websites designed to build trust and generate more customers. Get a free website demo on WhatsApp." },
