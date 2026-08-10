@@ -106,11 +106,14 @@ function Home() {
         </div>
       </section>
 
+      <FeaturedProjects />
+
       {/* Featured demo */}
-      <section className="shell py-16 md:py-24">
+      <section className="shell py-10 md:py-16">
         <div className="overflow-hidden rounded-[2rem] border border-border/70 bg-card shadow-soft">
           <div className="grid lg:grid-cols-[1.1fr_1fr]">
             <div className="order-2 p-7 md:p-12 lg:order-1">
+
               <Eyebrow>Featured Demo</Eyebrow>
               <h2 className="mt-5 text-3xl md:text-4xl">🏋 Gold Fitness Gym</h2>
               <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground md:text-base">
