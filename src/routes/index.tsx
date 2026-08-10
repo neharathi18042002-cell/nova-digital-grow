@@ -19,7 +19,9 @@ import heroDevices from "@/assets/hero-devices.jpg";
 import demoGym from "@/assets/demo-gym.jpg";
 import office from "@/assets/office.jpg";
 import { Eyebrow, GhostLink, PrimaryLink, SectionHeading } from "@/components/ui-kit";
+import { FeaturedProjects } from "@/components/featured-projects";
 import { site, whatsappFor } from "@/lib/site";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
