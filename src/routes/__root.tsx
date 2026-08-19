@@ -146,6 +146,17 @@ function RootShell({ children }: { children: ReactNode }) {
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
+        {/* Meta Pixel noscript fallback */}
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=850024608077725&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
+        {/* End Meta Pixel noscript */}
         {children}
         <Scripts />
       </body>
